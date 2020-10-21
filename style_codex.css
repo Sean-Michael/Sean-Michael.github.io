@@ -1,14 +1,32 @@
-﻿body {
+﻿a:link {
     color: rgb(4, 53, 4);
-    font-family: Helvetica; 
-}
-
-a:link {
-    color: rgb(4, 53, 4);
+    text-decoration: none;
     font-style: normal;
 }
 
 a:visited {
-    color: green;
+    color: rgb(23, 78, 23);
+    text-decoration: none;
     font-style: normal;
 }
+
+body {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+  }
+  
+  .container {
+    min-height: 400px;
+    margin: 5px;
+    padding: 10px;
+    border: 4px solid black;
+  }
+  
+  .box {
+    background-color: #81d07d;
+    max-width: 265px; 
+    min-width: 100px;
+    height: 80px;
+    margin: 10px 0;
+    padding: 10px;
+    border: 2px solid black;
+  }
