@@ -1,0 +1,35 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+
+header {
+    padding: 10px 10px 10px 10px;
+    display: flex;
+ 
+}
+
+.name {
+    margin-right: auto;
+    
+}
+.info-container{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bio-container{
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 2.0;
+    width: 450px;
+}
+
+p {
+    text-indent: 50px;
+}
+
+.credits{
+    font-size: small;
+    display:block;
+}
+
