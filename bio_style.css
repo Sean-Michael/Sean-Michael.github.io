@@ -17,22 +17,23 @@ header {
 
 .header-image-container {
     position: relative;
-    top: 131px;
+    top: 150px;
     margin-left: auto;
-    max-width: 397px;
-    height: 100%;
+    width: 397px;
 }
 
 .headshot {
-    object-fit: fit;
-    object-position: right bottom;
+    height: 250px;
+    width: 100%;
+    object-fit: contain;
+    object-position: right bottom; 
+    border-radius: 8px;
 }
 
 .header-info-container {
    position: relative;
-   top: 131px;
-   margin-left: 50px;
-
+   top: 200px;
+   margin-left: 25px;
 }
 
 body a:link {
@@ -51,6 +52,8 @@ body a:visited {
 }
 
 .bio-container{
+    position: relative;
+    bottom: 75px;
     margin-left: auto;
     margin-right: auto;
     line-height: 2.0;
@@ -61,12 +64,13 @@ p {
     text-indent: 50px;
 }
 
-.credits{ 
+.credits {
     position: relative;
-    bottom: 15px;
+    bottom: 5px;
+    left: 130px;
     display: inline;
     font-size: 10px;
-    color: white;
-    display:block;
+    color: #A5B5BC;
+    display: block;
 }
 
